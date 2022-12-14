@@ -110,11 +110,13 @@ public class SetInformation extends AppCompatActivity {
                 int num = data.size();
                 String datas = "";
 
+
                 for(int i=0;i<num-1;i++){
                     datas=datas+data.get(i)+"\n";
                 }
-                datas=datas+data.get(num-1);
-
+                if(num>=1) {
+                    datas = datas + data.get(num - 1);
+                }
                 try {
 
                     //2.(쓰기) 자바랑은 다르게 openFileOutput(name, MODE_PRIVATE) 이렇게 사용하는데

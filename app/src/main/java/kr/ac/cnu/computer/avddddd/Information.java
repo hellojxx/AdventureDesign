@@ -173,7 +173,7 @@ public class Information extends AppCompatActivity{
             @Override
             public void onClick(View view) {
                 Intent setinformationIntent = new Intent(Information.this, SetInformation.class);
-                setinformationIntent.putExtra("name",name);
+                setinformationIntent.putExtra("name",s_name);
                 startActivity(setinformationIntent);
             }
         });
