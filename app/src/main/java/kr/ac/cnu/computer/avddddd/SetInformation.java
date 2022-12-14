@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.os.Environment;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -52,6 +53,8 @@ public class SetInformation extends AppCompatActivity {
 
         setContentView(R.layout.setinformation);
         name=getIntent().getStringExtra("name");
+        TextView title=findViewById(R.id.ShopName2);
+        title.setText(name);
 
         testDataSet = new ArrayList<>();
 

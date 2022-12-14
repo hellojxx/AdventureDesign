@@ -62,8 +62,9 @@ public class FixActivity extends AppCompatActivity {
             public void onClick(View v) {
                 File fileAlarms = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_ALARMS);
                 String dirPath = fileAlarms.getPath();
-                saveBitmaptoJpeg(s_img,dirPath, name);
-
+                if(s_img!=null){
+                    saveBitmaptoJpeg(s_img,dirPath, name);
+                }
                 finish();
             }
         });
@@ -78,17 +79,6 @@ public class FixActivity extends AppCompatActivity {
             }
         });
 
-        Button backbutton = (Button) findViewById(R.id.button_back);
-        backbutton.setOnClickListener(new View.OnClickListener() {
-
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), Img.class);
-                startActivity(intent);
-            }
-
-
-        });
         Button b_button=findViewById(R.id.button_back);
         b_button.setOnClickListener(new View.OnClickListener() {
             @Override
