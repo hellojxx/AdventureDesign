@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "869270417889",
+    "firebase_url": "https://adventuredesign-c3624-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "adventuredesign-c3624",
+    "storage_bucket": "adventuredesign-c3624.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:869270417889:android:23ec7c02698fe20ec1a2a0",
+        "android_client_info": {
+          "package_name": "kr.ac.cnu.computer.avddddd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "869270417889-baai6606f8ie8mcc1134mafru0t8d5v8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kr.ac.cnu.computer.avddddd",
+            "certificate_hash": "4762b68040f12e8ec612cda58d211666bd3fa278"
+          }
+        },
+        {
+          "client_id": "869270417889-mmg3rj55eof8o9emd06vf5kubt0kn44f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoOYPp4OnbyNCoeNF8EX33MxU8NmmIH2c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "869270417889-mmg3rj55eof8o9emd06vf5kubt0kn44f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
