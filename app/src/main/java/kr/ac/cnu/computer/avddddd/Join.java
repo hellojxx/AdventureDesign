@@ -41,8 +41,7 @@ public class Join extends AppCompatActivity {
 
         btn_register.setOnClickListener(v -> {
             Toast.makeText(Join.this, "회원가입에 성공했습니다.", Toast.LENGTH_SHORT).show();
-            Intent intent = new Intent(Join.this, Login.class);
-            startActivity(intent);
+            finish();
 
 //            String strEmail = et_email.getText().toString();
 //            String strPwd = et_pwd.getText().toString();
