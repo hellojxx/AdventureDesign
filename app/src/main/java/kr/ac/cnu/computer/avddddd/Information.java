@@ -22,7 +22,7 @@ public class Information extends AppCompatActivity{
     RecyclerView textView;
     UrlAdepter adapter;
     String s_name;
-    String name="infomation";
+    String name="";
 
     protected void onResume() {
 
